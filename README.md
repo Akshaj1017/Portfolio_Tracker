@@ -31,19 +31,18 @@ Follow these steps to set up the project locally:
 
 Here’s the section you asked for, converted into markdown format:
 
-```markdown
 ### Step 1: Clone the Repository
 
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/yourusername/portfolio-management-system.git
+git clone https://github.com/yourusername/Portfolio_Tracker.git
 ```
 
 This will create a local copy of the repository. After cloning, navigate to the project directory:
 
 ```bash
-cd portfolio-management-system
+cd Portfolio_Tracker
 ```
 
 ### Step 2: Install the Required Dependencies
@@ -77,4 +76,3 @@ After running the application, you will be presented with a menu offering differ
 - **Rebalancing Suggestions**: Get recommendations on how to rebalance your portfolio.
 - **Sector Allocation Visualization**: Visualize your portfolio's sector allocation for better diversification insights.
 - **Simulate Portfolio**: Run Monte Carlo simulations to predict the future performance of your portfolio over the next 15 years under different risk scenarios.
-```
