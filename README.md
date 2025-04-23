@@ -29,11 +29,52 @@ This project uses several libraries for functionality and visualization. The key
 
 Follow these steps to set up the project locally:
 
-### Step 1: Clone the repository
+Here’s the section you asked for, converted into markdown format:
 
-Clone this repository to your local machine:
+```markdown
+### Step 1: Clone the Repository
+
+First, clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/yourusername/portfolio-management-system.git
-cd portfolio-management-system
+```
 
+This will create a local copy of the repository. After cloning, navigate to the project directory:
+
+```bash
+cd portfolio-management-system
+```
+
+### Step 2: Install the Required Dependencies
+
+The project requires several Python libraries to run correctly. These dependencies are listed in the `requirements.txt` file. To install them, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will automatically install all the necessary libraries for the application.
+
+### Step 3: Run the Application
+
+Once the dependencies are installed, you can start the application by running the following command:
+
+```bash
+python main.py
+```
+
+This will launch the program, and you will be presented with a menu of options to interact with the Portfolio Management System.
+
+### Step 4: Interact with the Application
+
+After running the application, you will be presented with a menu offering different functionalities. You can:
+
+- **Add Asset**: Add new assets to your portfolio.
+- **View Portfolio**: View a summary of all your portfolio assets, including transaction values, current prices, and overall portfolio value.
+- **Track Dividends**: View the dividends of the assets in your portfolio.
+- **Asset Weights**: View the relative weights of each asset in your portfolio.
+- **Rebalancing Suggestions**: Get recommendations on how to rebalance your portfolio.
+- **Sector Allocation Visualization**: Visualize your portfolio's sector allocation for better diversification insights.
+- **Simulate Portfolio**: Run Monte Carlo simulations to predict the future performance of your portfolio over the next 15 years under different risk scenarios.
+```
